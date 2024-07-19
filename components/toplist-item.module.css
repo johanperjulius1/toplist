@@ -1,0 +1,26 @@
+
+  
+
+.toplist-item__button {
+    display: inline-block;
+    background-color: #65c82d; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Bold text for the main label */
+  }
+  
+  .button__subtext {
+    display: block;
+    font-size: 12px; /* Smaller font size for the subtext */
+    font-weight: normal; /* Normal weight for the subtext */
+  }
+
+  .toplist-item__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+

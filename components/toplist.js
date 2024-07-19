@@ -6,7 +6,6 @@ const DUMMY_DATA = [
   {
     title: "LeoVegas",
     image: "leovegas-logo.png",
-    numbersRating: 10,
     starsRating: 5,
     excerpt: "Leovegas är ett av de bästa casinon på marknaden",
     link: "https://www.leovegas.com",
@@ -14,7 +13,6 @@ const DUMMY_DATA = [
   {
     title: "Casumo",
     image: "casumo-logo.png",
-    numbersRating: 9,
     starsRating: 4,
     excerpt: "Casumo är ett av de bästa casinon på marknaden",
     link: "https://www.casumo.com",
