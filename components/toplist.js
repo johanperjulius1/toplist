@@ -5,16 +5,16 @@ import ToplistItem from "./toplist-item";
 const DUMMY_DATA = [
   {
     title: "LeoVegas",
-    image: "leovegas-logo.png",
-    starsRating: 5,
-    excerpt: "Leovegas är ett av de bästa casinon på marknaden",
+    image: "leovegas-modile.webp",
+    rating: 5,
+    excerpt: "100% bonus upp till 4000 kr + 100 free spins",
     link: "https://www.leovegas.com",
   },
   {
     title: "Casumo",
-    image: "casumo-logo.png",
-    starsRating: 4,
-    excerpt: "Casumo är ett av de bästa casinon på marknaden",
+    image: "casinostugan-mobile.webp",
+    rating: 4,
+    excerpt: "Bonus Upp till 1000 kr + 100 Gratissnurr + 100 kr i Live Casino",
     link: "https://www.casumo.com",
   },
 ];

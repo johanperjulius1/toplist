@@ -20,10 +20,16 @@
 }
 
 .toplist-item__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .toplist-item__container-left {
+  text-align: center;
+  flex-basis: 66%;
+}
+
+.toplist-item__container-right {
+  display: flex;
+  flex-basis: 33%;
+  align-items: center;
 }
