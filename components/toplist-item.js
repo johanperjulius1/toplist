@@ -21,7 +21,7 @@ export default function ToplistItem({ casino }) {
           sizes="(min-width: 600px) 800px, 480px"
         />
         <Rating rating={rating} />
-        <div>excerpt {excerpt}</div>
+        <div> {excerpt}</div>
       </div>
       <div
         className={`${classes["toplist-item__container"]} ${classes["toplist-item__container-right"]}`}
