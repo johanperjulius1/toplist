@@ -12,16 +12,14 @@ export default function ToplistItem({ casino }) {
       <div
         className={`${classes["toplist-item__container"]} ${classes["toplist-item__container-left"]}`}
       >
-        <picture>
           <img
             src={imagePathMobile}
             alt={`${title} logo`}
             width={150}
             height={50}
-            source srcSet={`${imagePathMobile} 480w, ${imagePathDesktop} 768w`}
-            sizes="(min-width: 480px) 768px, 480px"
+            srcSet={`${imagePathMobile} 300w, ${imagePathMobile} 768w, ${imagePathDesktop} 1280w`}
+           sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, 1280px"
           />
-        </picture>
 
         <Rating rating={rating} />
         <div> {excerpt}</div>
