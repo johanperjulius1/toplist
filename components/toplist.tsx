@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./toplist.module.css";
 import ToplistItem from "./toplist-item";
-import { getAllPostsData } from "@/lib/toplist-utils";
+import { getAllPostsData } from "../lib/toplist-utils";
 
 export default function Toplist() {
   const casinosData = getAllPostsData();
