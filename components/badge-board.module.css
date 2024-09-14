@@ -1,3 +1,19 @@
 .badge-container {
     background-color: #efefef;
+    display: flex;
+    height: 55px;
+    justify-content: space-around;
+}
+.badge-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.badge-container div img {
+    display: block;
+}
+
+.badge-container div span {
+    display: block;
 }
