@@ -1,27 +1,29 @@
 import Image from "next/image";
 import classes from "./toplist-item.module.css";
 import Rating from "./rating";
+import BadgeBoard from "./badge-board";
 
 export default function ToplistItem({ casino }) {
-  const { title, imageMobile, imageDesktop, rating, excerpt, link } = casino;
-  const imagePathMobile = `/images/logos/${title}/${imageMobile}`;
-  const imagePathDesktop = `/images/logos/${title}/${imageDesktop}`;
+  const { title, logo, rating, excerpt, link } = casino;
+  const logoPath = `/images/logos/${title}/${logo}`;
 
   return (
     <div className={`${classes["toplist-item"]}`}>
       <div
         className={`${classes["toplist-item__container"]} ${classes["toplist-item__container-left"]}`}
       >
-          <img
-            src={imagePathMobile}
-            alt={`${title} logo`}
-            width={150}
-            height={50}
-            srcSet={`${imagePathMobile} 300w, ${imagePathMobile} 768w, ${imagePathDesktop} 1280w`}
-           sizes="(max-width: 300px) 300px, (max-width: 768px) 768px, 1280px"
-          />
+        <Image
+          className={classes.img}
+          src={logoPath}
+          alt={`${title} logo`}
+          width={150}
+          height={50}
+
+        />
+
 
         <Rating rating={rating} />
+        <BadgeBoard/>
         <div> {excerpt}</div>
       </div>
       <div

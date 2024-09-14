@@ -1,35 +1,35 @@
 .toplist-item {
-  display: flex;
+    display: flex;
 }
 
 .toplist-item__button {
-  display: inline-block;
-  background-color: #65c82d; /* Green background */
-  color: white; /* White text */
-  padding: 10px 20px; /* Padding for the button */
-  text-align: center; /* Center the text */
-  text-decoration: none; /* Remove underline */
-  border-radius: 5px; /* Rounded corners */
-  font-weight: bold; /* Bold text for the main label */
+    display: inline-block;
+    padding: 25px 20px;
+    background-color: #65c82d;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 .button__subtex {
-  display: block;
-  font-size: 12px; /* Smaller font size for the subtext */
-  font-weight: normal; /* Normal weight for the subtext */
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
 }
 
-.toplist-item__container {
-
-}
+/* .toplist-item__container {
+} */
 
 .toplist-item__container-left {
-  text-align: center;
-  flex-basis: 66%;
+    flex-basis: 66%;
+    text-align: center;
 }
 
 .toplist-item__container-right {
-  display: flex;
-  flex-basis: 33%;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    flex-basis: 33%;
 }
+

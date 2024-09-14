@@ -11,7 +11,7 @@ export default function Toplist() {
   return (
     <div>
       <h1>Topp 10 bästa online casinon</h1>
-      <h2>Bonusarna uppdaterades den {dateDay} {dateMonth} {dateYear} </h2>
+      <h2 className={classes.subtitle}>Bonusarna uppdaterades den {dateDay} {dateMonth} {dateYear} </h2>
       {casinosData.map((casino) => (
         <ToplistItem key={casino.title} casino={casino} />
       ))}
