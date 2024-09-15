@@ -5,19 +5,19 @@ export default function BadgeBoard() {
     return (
         <div className={classes["badge-container"]}>
             <div>
-                <Image width={20} height={20} src="/images/badges/trustly.avif" />
+                <Image alt="Trustly" width={20} height={20} src="/images/badges/trustly.avif" />
                 <span>Trustly</span>
             </div>
             <div>
-                <Image width={20} height={20} src="/images/badges/swish.avif"/>
+                <Image alt="swish" width={20} height={20} src="/images/badges/swish.avif"/>
                 <span> Swish</span>
             </div>
             <div>
-                <Image width={20} height={20} src="/images/badges/bankid.avif"/>
+                <Image alt="BankID" width={20} height={20} src="/images/badges/bankid.avif"/>
                 <span>BankID</span>
             </div>
             <div>
-                <Image width={20} height={20} src="/images/badges/spelinspektionen.avif"/>
+                <Image alt="Spelinspektionen" width={20} height={20} src="/images/badges/spelinspektionen.avif"/>
                 <span>Licens</span>
             </div>
         </div>
